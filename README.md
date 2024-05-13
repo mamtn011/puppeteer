@@ -94,3 +94,12 @@ await inputElm.type("something you want to type");
 await page.screenshot({ path: "example.com.png" });
 // path will be the file name
 ```
+
+**Using Javascript Operations**
+
+```js
+// we can use javascript in page.evaluate like this
+const sponsorLinks = await page.evaluate(() => {
+  return [...document.querySelectorAll("selector")].map((elm) => elm.href);
+});
+```
