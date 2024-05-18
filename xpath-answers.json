@@ -1,0 +1,12 @@
+[
+  "//plate",
+  "//bento",
+  "//plate/apple",
+  "//*",
+  "//*/apple",
+  "//plate[@id='fancy']",
+  "//plate/apple",
+  "//*[@id='fancy']/pickle",
+  "//*[contains(@class,'small')]",
+  "//orange[contains(@class,'small')]"
+]
