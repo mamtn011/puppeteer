@@ -27,7 +27,7 @@ import { setTimeout } from "timers/promises";
     localStorage.setItem("currentLevel", existingLocalStorageData.currentLevel);
   };
   await page.evaluateOnNewDocument(pageFunction, existingLocalStorageData);
-  await page.goto("https://flukeout.github.io/");
+  await page.goto("https://flukeout.github.io/", { waitUntil: "load" });
 
   // iterating css_answers to fill up input and do necessary actions
   for (let [key, css_answer] of css_answers.entries()) {
@@ -50,6 +50,6 @@ import { setTimeout } from "timers/promises";
       JSON.stringify(localStorageData)
     );
   }
-
+  await page.close();
   await browser.close();
 })();
