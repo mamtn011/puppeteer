@@ -1,0 +1,15 @@
+[
+  {
+    "domain": "care.discoverynetbd.com",
+    "hostOnly": true,
+    "httpOnly": true,
+    "name": "JSESSIONID",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": true,
+    "session": true,
+    "storeId": "0",
+    "value": "5F288DD592B652F846D35B81360188F2",
+    "id": 1
+  }
+]
