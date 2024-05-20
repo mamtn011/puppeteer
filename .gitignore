@@ -9,7 +9,7 @@
 # production
 /build
 /temporary
-
+/another
 # misc
 .DS_Store
 .env.local
