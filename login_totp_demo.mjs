@@ -12,23 +12,24 @@ import { setTimeout } from "timers/promises";
   const page = await browser.newPage();
 
   // enter to the url
-  await page.goto("https://clerk-next-demo-page.vercel.app/dashboard", {
-    waitUntil: "networkidle0",
-  });
+  await page.goto("https://clerk-next-demo-page.vercel.app/dashboard/");
   const identifierBox = await page.waitForSelector("#identifier-field");
   await identifierBox.type(process.env.USER_NAME);
-  // const emailSubmitBtn = await page.waitForSelector(".cl-formButtonPrimary");
-  // await emailSubmitBtn.click();
 
-  const passwordBox = await page.waitForSelector("#password-filed");
+  const emailSubmitBtn = await page.waitForSelector(".cl-formButtonPrimary");
+  await emailSubmitBtn.click();
+
+  await setTimeout(1000);
+  const passwordBox = await page.waitForSelector("#password-field");
   await passwordBox.type(process.env.PASSWORD);
+  
 
   const passwordSubmitBtn = await page.waitForSelector(".cl-formButtonPrimary");
   await passwordSubmitBtn.click();
 
   const typeOtp = async () => {
-    const otpBox = await page.waitForSelector(".cl-otpCodeFiledInputs");
-    const { otp, expires } = TOTP.generate(process.env.TOTP_SECRET);
+    const otpBox = await page.waitForSelector(".cl-otpCodeFieldInput");
+    const { otp } = TOTP.generate(process.env.TOTP_SECRET);
     await otpBox.type(otp);
 
     await page
@@ -41,6 +42,9 @@ import { setTimeout } from "timers/promises";
   };
 
   await typeOtp();
+
+  await page.waitForSelector(".cl-userButtonTrigger");
+
   // take screenshot
   await page.screenshot({ path: "totp-demo.png" });
 
