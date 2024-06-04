@@ -1,0 +1,187 @@
+{
+  "https://www.studioneat.com/products/markone": {
+    "title": "Mark One",
+    "tagline": "A MINIMAL, DURABLE, RETRACTABLE PEN",
+    "price": "Tk 10,200",
+    "variantData": [
+      {
+        "variant": "Black + Silver",
+        "price": "Tk 10,200"
+      },
+      {
+        "variant": "Black + Copper",
+        "price": "Tk 10,800"
+      },
+      {
+        "variant": "White + Copper",
+        "price": "Tk 12,000"
+      },
+      {
+        "variant": "White + Silver",
+        "price": "Tk 11,400"
+      },
+      {
+        "variant": "Black + Black (Steel)",
+        "price": "Tk 15,500"
+      },
+      {
+        "variant": "Black + Silver (Steel)",
+        "price": "Tk 14,900"
+      },
+      {
+        "variant": "Black + Copper (Steel)",
+        "price": "Tk 15,500"
+      },
+      {
+        "variant": "White + Copper (Steel)",
+        "price": "Tk 16,700"
+      },
+      {
+        "variant": "White + Silver (Steel)",
+        "price": "Tk 16,100"
+      }
+    ]
+  },
+  "https://www.studioneat.com/products/marktwo": {
+    "title": "Mark Two",
+    "tagline": "A MINIMAL AND DURABLE POCKET PEN",
+    "price": "Tk 14,900",
+    "variantData": [
+      {
+        "variant": "Silver - With Clip",
+        "price": "Tk 14,900"
+      },
+      {
+        "variant": "Black - With Clip",
+        "price": "Tk 16,700"
+      },
+      {
+        "variant": "Silver - No Clip",
+        "price": "Tk 13,200"
+      },
+      {
+        "variant": "Black - No Clip",
+        "price": "Tk 14,900"
+      }
+    ]
+  },
+  "https://www.studioneat.com/products/materialdock": {
+    "title": "Material Dock",
+    "tagline": "WOOD DOCKS FOR MAGSAFE",
+    "price": "Tk 2,900",
+    "variantData": [
+      {
+        "variant": "Solo (iPhone)",
+        "price": "Tk 2,900"
+      },
+      {
+        "variant": "Trio (iPhone, AirPods, and Apple Watch)",
+        "price": "Tk 10,200"
+      },
+      {
+        "variant": "Upright Duo (iPhone and AirPods)",
+        "price": "Tk 6,500"
+      },
+      {
+        "variant": "Duo (iPhone and Apple Watch)",
+        "price": "Tk 5,800"
+      }
+    ]
+  },
+  "https://www.studioneat.com/products/panobook": {
+    "title": "Panobook",
+    "tagline": "A NOTEBOOK FOR YOUR DESK",
+    "price": "$3,000",
+    "variantData": []
+  },
+  "https://www.studioneat.com/products/markthree": {
+    "title": "Mark Three",
+    "tagline": "A MINIMAL AND DURABLE MECHANICAL PENCIL",
+    "price": "Tk 9,000",
+    "variantData": [
+      {
+        "variant": "Black + Silver",
+        "price": "Tk 9,000"
+      },
+      {
+        "variant": "Black + Copper",
+        "price": "Tk 9,600"
+      },
+      {
+        "variant": "White + Copper",
+        "price": "Tk 10,800"
+      },
+      {
+        "variant": "White + Silver",
+        "price": "Tk 10,200"
+      }
+    ]
+  },
+  "https://www.studioneat.com/products/keepbook": {
+    "title": "Keepbook",
+    "tagline": "A NOTEBOOK MEANT TO BE KEPT",
+    "price": "Tk 3,000",
+    "variantData": [
+      {
+        "variant": "Dot Grid (160 pages)",
+        "price": "Tk 3,000"
+      },
+      {
+        "variant": "Ruled (160 pages)",
+        "price": "Tk 3,000"
+      },
+      {
+        "variant": "Blank (60 super thick pages)",
+        "price": "Tk 3,000"
+      }
+    ]
+  },
+  "https://www.studioneat.com/products/totebook": {
+    "title": "Totebook",
+    "tagline": "A NOTEBOOK TO TAKE WITH YOU",
+    "price": "Tk 3,000",
+    "variantData": [
+      {
+        "variant": "Standard, 2-pack",
+        "price": "Tk 3,000"
+      },
+      {
+        "variant": "Mini, 3-pack",
+        "price": "Tk 3,000"
+      }
+    ]
+  },
+  "https://www.studioneat.com/products/panopad": {
+    "title": "Panopad",
+    "tagline": "A PANORAMIC SCRATCH PAD FOR YOUR DESK.",
+    "price": "$2,400",
+    "variantData": []
+  },
+  "https://www.studioneat.com/products/glif": {
+    "title": "Glif",
+    "tagline": "A TRIPOD MOUNT FOR SMARTPHONES",
+    "price": "Tk 3,400",
+    "variantData": [
+      {
+        "variant": "Glif Only (Backordered)",
+        "price": "Tk 3,400"
+      },
+      {
+        "variant": "Full Set (Glif + Hand Grip + Wrist Strap)",
+        "price": "Tk 6,600"
+      }
+    ]
+  },
+  "https://www.studioneat.com/products/canopy": {
+    "title": "Canopy",
+    "tagline": "KEYBOARD CASE AND IPAD STAND",
+    "price": "$4,800",
+    "variantData": []
+  },
+  "https://www.studioneat.com/products/cosmonaut": {
+    "title": "Cosmonaut",
+    "tagline": "WIDE-GRIP STYLUS FOR TOUCHSCREENS",
+    "price": "$3,000",
+    "variantData": []
+  }
+}

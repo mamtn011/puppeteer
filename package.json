@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bullmq": "^5.7.14",
+    "lowdb": "^7.0.1",
     "puppeteer": "^22.6.0"
   }
 }
